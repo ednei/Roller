@@ -54,7 +54,7 @@ int main (void)
 	automated_char_cfg.steps = 0;
 	automated_char_cfg.dir_reverse = LCDCA_AUTOMATED_DIR_REVERSE;
 	lcdca_automated_char_set_config(&automated_char_cfg);
-	lcdca_automated_char_start("Hello World ", 12);
+	lcdca_automated_char_start("Hello1World ", 12);
 //	printf("Press PB0 to stop automated sequential mode and continue.\n\r");
 //	lcdca_automated_char_stop();
 
