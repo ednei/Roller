@@ -37,3 +37,6 @@ void lcdca_init(void)
 	ioport_set_pin_level(LCD_BL_GPIO, IOPORT_PIN_LEVEL_HIGH);
 }
 
+void LcdWrite(char * str){
+	lcdca_write_packet(LCDCA_TDG_14SEG4COM, FIRST_14SEG_4C, str, WIDTH_14SEG_4C, DIR_14SEG_4C);
+}

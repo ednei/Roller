@@ -14,7 +14,7 @@
 #include "config/conf_lcdca.h"
 
 void lcdca_init(void);
-
+void LcdWrite(char * str);
 
 
 

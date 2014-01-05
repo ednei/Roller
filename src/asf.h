@@ -59,8 +59,14 @@
 // From module: Delay routines
 #include <delay.h>
 
+// From module: EIC - External Interrupt Controller
+#include <eic.h>
+
 // From module: FLASHCALW Controller Software Driver
 #include <flashcalw.h>
+
+// From module: GPIO - General-Purpose Input/Output
+#include <gpio.h>
 
 // From module: Generic board support
 #include <board.h>
@@ -97,8 +103,21 @@
 // From module: System Clock Control - SAM4L implementation
 #include <sysclk.h>
 
+// From module: USART - Serial interface- SAM implementation for devices with only USART
+#include <serial.h>
+
 // From module: USART - Univ. Syn Async Rec/Trans
 #include <usart.h>
+
+// From module: USB CDC Protocol
+#include <usb_protocol_cdc.h>
+
+// From module: USB Device CDC (Single Interface Device)
+#include <udi_cdc.h>
+
+// From module: USB Device Stack Core (Common API)
+#include <udc.h>
+#include <udd.h>
 
 // From module: WDT - Watchdog Timer
 #include <wdt_sam4l.h>
