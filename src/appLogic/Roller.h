@@ -16,6 +16,9 @@
         #define ROLLER_MAXCARACTER 1000
 #endif
 
+#define ROLL_LEFT_CHARATER (',')
+#define ROLL_RIGHT_CHARATER ('.')
+
 
 void Roller_Init(void);
 void Roller_GetDisplayData(char *displayData);
